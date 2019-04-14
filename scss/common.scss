@@ -83,7 +83,8 @@ main {
   .bio-image {
     grid-area: bioimage;
     margin: auto;
-    border-radius: 20%;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    //border-radius: 20%;
     border: 3px solid $secondary-color;
   }
   .bio {

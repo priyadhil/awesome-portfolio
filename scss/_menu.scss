@@ -41,7 +41,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.9;
+  opacity: 1;
   visibility: hidden;
 
   &.show {
@@ -88,7 +88,8 @@
       width: 250px;
       height: 250px;
       background: url("/dist/pics/portraitsm.jpeg");
-      border-radius: 50%;
+      clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+      border-radius: 5px;
       border: 3px solid $secondary-color;
     }
   }
